@@ -10,16 +10,21 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native/new-app-screen": "0.81.1",
+    "@react-navigation/native": "^6.1.9",
     "react": "19.1.0",
     "react-native": "0.81.1",
-    "@react-native/new-app-screen": "0.81.1",
-    "react-native-safe-area-context": "^5.5.2"
+    "react-native-biometrics": "^3.0.1",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-vector-icons": "^10.3.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
-    "@react-native-community/cli": "20.0.0",
+    "@react-native-community/cli": "^12.3.6",
     "@react-native-community/cli-platform-android": "20.0.0",
     "@react-native-community/cli-platform-ios": "20.0.0",
     "@react-native/babel-preset": "0.81.1",
